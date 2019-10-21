@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Positioning Text In an Image</title>
+	<style>
+		.Image{
+			position: relative;
+		}
+		.TopLeft{
+			position: absolute;
+			left: 10px;
+			top: 10px;
+			font-size: 50px;
+		}
+		.TopRight{
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			font-size: 50px;
+		}
+		.BottomLeft{
+			position: absolute;
+			left: : 10px;
+			bottom: 10px;
+			font-size: 50px;
+		}
+		.BottomRight{
+            position: absolute;
+			right: 10px;
+			bottom: 10px;
+			font-size: 50px;  
+		}
+		.center{
+			position: absolute;
+			top: 50%;
+			left: 0;
+			text-align: center;
+			width: 100%;
+			font-size: 50px;
+		}
+		img{
+			width: 100%;
+			height: auto;
+			opacity: 0.6;
+		}
+	</style>
+</head>
+<body>
+	<h1>Positioning Text In an Image</h1>
+	<div class="Image">
+	  <img src="images/download.jpg" width="1000" height="500">
+      <div class="TopLeft">Top Left</div>
+      <div class="TopRight">Top Right</div>
+      <div class="BottomLeft">Bottom Left</div>
+      <div class="BottomRight">Bottom Right</div>
+      <div class="center">Center</div>
+    </div>
+
+</body>
+</html>
