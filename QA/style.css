@@ -1,0 +1,227 @@
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('fonts/ballpark.eot');
+    src: url('fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ballpark.woff') format('woff'),
+         url('fonts/ballpark.ttf') format('truetype'),
+         url('fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('fonts/dayrom.eot');
+    src: url('fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dayrom.woff') format('woff'),
+         url('fonts/dayrom.ttf') format('truetype'),
+         url('fonts/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background-color:#ffffcc;
+	color: black;
+}
+#wrapper{
+	width: 1000px;
+	margin: auto;
+}
+#top_title{
+	display: inline-block;
+}
+#logo{
+	margin-top: 10px;
+	margin-left: -28px;
+}
+header{
+	background: url('images/line.png') repeat-x bottom;
+}
+header h1{
+	font-size: 2.5em;
+	font-family: 'BallparkWeiner',serif;
+	font-weight: normal;
+	margin-top: -50px;
+	margin-left: 60px;
+}
+header h3{
+	/*font-size: 1.5em;
+	font-family: 'BallparkWeiner',serif;
+	font-weight: normal;*/
+	font-size: 2em;
+	margin-top: -20px;
+	margin-left: 50px;
+}
+nav{
+	display: inline-block;
+	width: 800px;
+	text-align: right;
+}
+nav ul{
+	list-style-type: none;
+}
+nav li{
+	display: inline-block;
+	margin-right: 25px;
+}
+nav a{
+	font-size: 1.3em;
+	font-family: 'BallparkWeiner',serif;
+	font-weight: normal;
+    color: #181818;
+   /* font-size: 1.1em;*/
+    padding-bottom: 2px;
+    text-decoration: none;	
+}
+nav a:hover{
+	 color: #760001;
+    border-bottom: 3px solid #760001;
+}
+#banner_img{
+	background: url('images(4).jpg') no-repeat;
+	background-size: 100%;
+	position: relative;
+	height: 300px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	border-radius: 3px;
+	box-shadow:0px 4px 4px #1c1a19;
+}
+#banner_description{
+	font-size: 1.5em;
+	font-family: 'BallparkWeiner',serif;
+	font-weight: normal;
+	position: absolute;
+	height: 33px;
+	width: 99.2%;
+	bottom: 0;
+	border-radius: 0px 0px 5px 5px;
+	padding-top: 6px;
+	padding-left: 5px;
+	color: white;
+	/*font-size: 1.5em;*/
+	background-color: rgba(24,24,24,0.8);
+}
+.button{
+	position: relative;
+	height: 20px;
+	right: 10px;
+	bottom: 1px;
+	left: 703px;
+	top: 1px;
+	background:red;
+	/*  background: url('images/red_background.png') repeat-x;*/
+	display:inline-block;
+	border: 1px solid #760001;
+	border-radius: 2px;
+	font-size: 1.2em;
+	padding: 3px 8px 9px 8px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+.button{
+	border:0;
+}
+#cat{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#para{
+	margin-left: 60px;
+	margin-top: 0px;
+}
+#head1{
+	font-size: 2em;
+	font-family: 'BallparkWeiner',serif;
+	font-weight: normal;
+	margin-left: 90px;
+	margin-top: -30px;
+}
+article{
+	width: 600px;
+	margin-right: 20px;
+}
+article p{
+	font-size: 1em;
+	text-align: justify;
+}
+article, aside{
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+}
+aside{
+	position: relative;
+	width: 300px;
+	height: 620px;
+	background: #1c1a19;
+	padding: 10px;
+	color: white;
+	font-size: 0.8em;
+	border-radius: 3px;
+	box-shadow: 0px 2px 5px #1c1a19;
+    left: 50px;
+    margin-top: 20px;
+}
+#arrow{
+	position: absolute;
+	margin-top: 0px;
+	margin-left: -22px;
+}
+#my_pic{
+	text-align: center;
+	margin-top: 60px;
+}
+#my_pic img{
+	border:1px solid #181818;
+}
+aside img{
+    margin-right: 2px;
+    margin-left: 13px;
+}
+footer ul{
+	font-size: 1.1em;
+}
+#library, #friends, #hobby, #pic{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	font-size: 1em;
+	font-family: 'BallparkWeiner',serif;
+	font-weight: normal;
+}
+#library{
+	width: 35%;
+}
+#friends{
+	width: 15%;
+}
+#hobby{
+	width: 15%;
+}
+#pic{
+	width: 25%;
+}
+#library img{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+#friends{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 0px;
+	/*width: 48%;*/
+	padding: 2px;
+}
+#pic img{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+#Copyright{
+	text-align: center;
+}
