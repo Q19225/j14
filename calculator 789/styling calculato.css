@@ -1,0 +1,27 @@
+/*styling of calculator*/
+#wrapper{
+	background: black;
+	width: 350px;
+	height: 480px;
+	margin-left: 500px;
+	text-align: center;
+	padding:20px;
+	border-radius: 10px;
+}
+#result{
+	height: 80px;
+	width: 325px;
+	font-size: 30px;
+}
+input[type=button]{
+	width: 75px;
+	height: 70px;
+	margin: 2px;
+	margin-top: 10px;
+	margin-right: 3px;
+	border-radius: 5px;
+	font-size: 30px;
+}
+input[type=button]:hover{
+	background-color: grey; 
+}
